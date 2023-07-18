@@ -1,5 +1,114 @@
-.App {
-  text-align: center;
+@import url(//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSansNeo.css);
+
+.container {
+  width: 100%;
+  padding: 10px;
+}
+
+.home-title {
+  color: rgba(0, 0, 0, 0.87);
+  font-family: Spoqa Han Sans Neo;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%; /* 30px */
+  letter-spacing: -0.5px;
+  margin-left: 6px;
+}
+.container-box {
+  display: flex;
+  margin-top: 16px;
+}
+.card {
+  max-width: 158px;
+  font-family: Spoqa Han Sans Neo;
+  margin: 6px;
+}
+.header {
+  position: relative;
+}
+
+.header-image {
+  height: 158px;
+  width: 158px;
+  border-radius: 16px;
+  margin-bottom: 8px;
+}
+
+.icon {
+  position: absolute;
+  left: 110px;
+  top: 8px;
+  height: 40px;
+  width: 40px;
+}
+
+.like-icon {
+  height: 24px;
+  width: 24px;
+  padding: 8px;
+}
+
+.details-title {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 130%;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  color: rgba(0, 0, 0, 0.7);
+}
+.details-mastername-main {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 150%;
+  letter-spacing: 0.05px;
+  color: rgba(0, 0, 0, 0.5);
+  white-space: nowrap;
+  margin-right: 4px;
+}
+
+.details-bar {
+  height: 12px;
+  border: 0.5px solid;
+  color: rgba(0, 0, 0, 0.12);
+  margin-right: 4px;
+}
+
+.details-mastername-second {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 150%;
+  letter-spacing: 0.05px;
+  color: rgba(0, 0, 0, 0.5);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.mastername-wrapper {
+  display: flex;
+  margin-top: 4px;
+  margin-bottom: 8px;
+  align-items: center;
+}
+
+.label {
+  background-color: rgba(68, 68, 68, 0.12);
+  padding: 4px;
+  font-size: 12px;
+  border-radius: 4px;
+  margin-right: 4px;
+  font-weight: 700;
+  color: #444444;
+}
+.black-nav {
+  display: flex;
+  background-color: black;
+  width: 100%;
+  color: #61dafb;
 }
 
 .App-logo {
